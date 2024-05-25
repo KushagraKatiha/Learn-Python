@@ -2,11 +2,11 @@ import time
 
 wait_time = 1
 max_retries = 5
-attempts = 0
+attempts = 1
 
 
 while attempts < max_retries:
-    print("Attemp", attempts, 1, "_ wait", wait_time)
+    print("Attemp", attempts, "_ wait", wait_time)
     time.sleep(wait_time)
 
     wait_time *= 2
